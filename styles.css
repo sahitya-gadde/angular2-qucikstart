@@ -1,0 +1,167 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+/*start header*/
+.header{
+     background-color: #f2f2f2;      
+ }
+ /*end header*/
+/* start common css*/
+ .uppcase{
+  text-transform: uppercase;
+}
+
+/* start padding*/
+.padding2{
+  padding: 2%;
+}
+.padding5{
+  padding: 5%;
+}
+
+.padding1{
+  padding: 1%;
+}
+/* end padding*/
+
+.padding5{
+  padding: 5%;
+}
+/* start margin*/
+.margin1{
+  margin: 1%;
+}
+.topMargine3{
+  margin-top: 3%;
+}
+
+.topMargine1{
+  margin-top: 1%;
+}
+
+
+/* start margin*/
+
+.border1SolidGray{
+   border: 1px solid gray;
+}
+.bordernone{
+   border: none;
+}
+.font22{
+   font: 22px/30px arial;
+}
+
+.font42{
+   font: 42px/30px arial;
+}
+.font18{
+   font: 18px/30px arial;
+}
+.textAlignCenter{
+    text-align: center;  
+}
+.displayinline{
+  display: inline-block;
+}
+/* end common css*/
+
+/*index content*/
+.buylifeDiv{
+  position:absolute;
+  font-size:1.9vw;
+  top:2%;
+  left:10%;
+  padding: 0;
+}
+
+.productContent
+ {
+   position: relative;
+   padding:1%;
+   text-align: center;
+   border: 1px solid gray;
+   font: 25px/30px arial;
+ }
+ 
+  .flex-row {
+    display: flex;
+    align-items: center;
+  }
+/* start quote html */
+ .termLifeHeader{   
+   padding:1%;
+   text-align: center;   
+ }
+.borderbottom{
+border-bottom: 2px solid black;
+}
+.popover {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.42857;
+    text-align: start;
+    text-shadow: none;
+    text-transform: none;
+    white-space: normal;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+}
+/* end quote html */
+/*start estimate quote*/
+.estimateQuote{
+  padding:2%;
+   width:30%;
+  border-radius:none;
+  }
+/*end estimate quote*/
+
+/* Start of Gradient*/
+.divGradient{
+  height: 100px;
+  background: rgba(209,209,209,1);
+  background: -moz-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(209,209,209,1) 9%, rgba(219,219,219,1) 25%, rgba(254,254,254,1) 85%, rgba(254,254,254,1) 85%, rgba(254,254,254,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(209,209,209,1)), color-stop(9%, rgba(209,209,209,1)), color-stop(25%, rgba(219,219,219,1)), color-stop(85%, rgba(254,254,254,1)), color-stop(85%, rgba(254,254,254,1)), color-stop(100%, rgba(254,254,254,1)));
+  background: -webkit-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(209,209,209,1) 9%, rgba(219,219,219,1) 25%, rgba(254,254,254,1) 85%, rgba(254,254,254,1) 85%, rgba(254,254,254,1) 100%);
+  background: -o-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(209,209,209,1) 9%, rgba(219,219,219,1) 25%, rgba(254,254,254,1) 85%, rgba(254,254,254,1) 85%, rgba(254,254,254,1) 100%);
+  background: -ms-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(209,209,209,1) 9%, rgba(219,219,219,1) 25%, rgba(254,254,254,1) 85%, rgba(254,254,254,1) 85%, rgba(254,254,254,1) 100%);
+  background: linear-gradient(to bottom, rgba(209,209,209,1) 0%, rgba(209,209,209,1) 9%, rgba(219,219,219,1) 25%, rgba(254,254,254,1) 85%, rgba(254,254,254,1) 85%, rgba(254,254,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#fefefe', GradientType=0 );
+
+-webkit-box-shadow: 7px 9px 20px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 9px 20px -5px rgba(0,0,0,0.75);
+box-shadow: 7px 9px 20px -5px rgba(0,0,0,0.75);  
+
+  min-width: 30%;
+width: 30%;
+min-height: : 35%;
+height:  35%;
+text-align: justify;
+margin: auto;
+
+
+ /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        max-width: 100%;
+width: 100%;
+min-height: : 35%;
+height:  35%;
+text-align: justify;
+margin: auto;
+    }
+}
+/* End Gradient*/
+/* start footer*/
+.footerImg{
+  background-color:#f2f2f2;
+ 
+}
+/* end footer*/
+ 
