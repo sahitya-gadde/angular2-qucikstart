@@ -16,7 +16,7 @@ var MainContentComponent = (function () {
     MainContentComponent = __decorate([
         core_1.Component({
             selector: 'main-content',
-            template: "\n \n  {{maincontent}}\n   <router-outlet></router-outlet>\n\n  "
+            template: "\n     <div class=\"productContent\">\n     <router-outlet></router-outlet>\n     </div>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], MainContentComponent);

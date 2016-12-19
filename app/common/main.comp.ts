@@ -6,11 +6,9 @@ import { MainContentComponent }  from './main.content.comp';
 @Component({
   selector: 'main',
   template: `
-  <div class="well">
-  <main-content> </main-content>
-  <nav> </nav>
-  </div>
-  `
+   <main-content> </main-content>
+   <nav> </nav>
+   `
 })
 export class MainComponent { 
 main = 'Main Content Goes Here';   

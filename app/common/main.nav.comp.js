@@ -34,7 +34,7 @@ var NavComponent = (function () {
             moduleId: module.id,
             selector: 'nav',
             styleUrls: ['main-nav.component.css'],
-            template: "\n <div class=\"center-block\">\n\n <span *ngFor=\"let link of navLinks\">\n   <a  *ngIf=\"currPage.id-1 === link.id && link.id != 0\"  \n   [routerLink]=\"link.targetPage\" (click)=\"gotToPrevPage()\">\n     <i class=\"glyphicon glyphicon-chevron-left\"></i> \n   </a>\n  </span>\n\n  <a  *ngIf=\"currPage.id-1 === 0\"  disabled=\"true\" >\n     <i class=\"glyphicon glyphicon-chevron-left\"></i> \n  </a>\n \n\n  <div class=\"pagination\">\n   <ul class=\"pager\">\n     <li *ngFor=\"let navLink of navLinks\"  >\n     <a *ngIf=\"navLink.name != 'END' && navLink.name != 'START' \" \n     [ngClass]=\"{active: navLink.id === currPage.id}\">{{navLink.id}}</a></li>\n   </ul>\n </div>\n\n \n  <span *ngFor=\"let link of navLinks\">\n   <a  *ngIf=\"currPage.id+1 === link.id &&  link.id != (navLinks.length-1)\"  \n   [routerLink]=\"link.targetPage\" (click)=\"gotTonextPage()\">\n     <i class=\"glyphicon glyphicon-chevron-right\"></i> \n   </a>\n  </span>\n \n <a  *ngIf=\"currPage.id+1 === (navLinks.length-1)\"  disabled=\"true\" >\n     <i class=\"glyphicon glyphicon-chevron-right\"></i> \n  </a>\n\n\n </div>\n  "
+            templateUrl: 'main.nav.comp.html'
         }), 
         __metadata('design:paramtypes', [])
     ], NavComponent);

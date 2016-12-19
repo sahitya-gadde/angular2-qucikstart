@@ -16,7 +16,7 @@ var MainComponent = (function () {
     MainComponent = __decorate([
         core_1.Component({
             selector: 'main',
-            template: "\n  <div class=\"well\">\n  <main-content> </main-content>\n  <nav> </nav>\n  </div>\n  "
+            template: "\n   <main-content> </main-content>\n   <nav> </nav>\n   "
         }), 
         __metadata('design:paramtypes', [])
     ], MainComponent);
